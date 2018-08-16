@@ -1,8 +1,19 @@
 .jumbotron {
   text-align: center;
-  background-image: url(../img/dan-gold-206211.jpg);
+  background: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../img/seedlings.jpg) fixed center no-repeat;
   background-size: cover;
-  height: 80vh; }
+  height: 90vh; }
+  .jumbotron h2 {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 250%;
+    text-shadow: 3px 3px 4px #000000; }
+  .jumbotron h1 {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 550%;
+    text-shadow: 2px 2px 4px #000000; }
 
 .welcome {
   vertical-align: middle; }
